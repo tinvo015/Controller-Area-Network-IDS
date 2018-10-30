@@ -9,7 +9,7 @@ data_180 = data_180 - data_180(1);
 
 %% If you correctly implement IDS, the code below should run without errors.
 T_sec = 0.1;    % period
-N = 30;         % batch size. Change N here in Task 4.
+N = 20;         % batch size. Change N here in Task 4.
 
 % Create IDS for messages 184, 3d1 and 180.
 % ids is a structure. 
