@@ -1,3 +1,6 @@
+clear all;
+close all;
+
 %% Import data
 data_184 = import_data('../data/184.txt');
 data_3d1 = import_data('../data/3d1.txt');
@@ -9,7 +12,7 @@ data_180 = data_180 - data_180(1);
 
 %% If you correctly implement IDS, the code below should run without errors.
 T_sec = 0.1;    % period
-N = 20;         % batch size. Change N here in Task 4.
+N = 30;         % batch size. Change N here in Task 4.
 
 % Create IDS for messages 184, 3d1 and 180.
 % ids is a structure. 

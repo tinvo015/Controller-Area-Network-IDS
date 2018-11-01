@@ -107,7 +107,7 @@ classdef IDS
                     sumOffset = sumOffset + (a(i) - (a(1) + (i-1)* prev_mu_T_sec));
                 end
                 
-                curr_avg_offset_us = (1/(obj.N-1)) * sumOffset * 10^6;
+                curr_avg_offset_us = (1/(obj.N-1)) * sumOffset ;
                 curr_acc_offset_us = prev_acc_offset_us + abs(curr_avg_offset_us);
                 
                 % ====================== End of Your Code =========================
